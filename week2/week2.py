@@ -86,10 +86,13 @@ def graph_3d():
 
     plt.show()
 
-if __name__ == '__main__':
+def main():
     graph()
     point_chart()
     histogram()
     column_chart()
     pie_chart()
     graph_3d()
+
+if __name__ == '__main__':
+    main()
